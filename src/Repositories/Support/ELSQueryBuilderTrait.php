@@ -1,6 +1,6 @@
 <?php
 
-namespace bebbolus\elasticsessions\Repositories\Support;
+namespace elasticsessions\Repositories\Support;
 
 
 trait ELSQueryBuilderTrait

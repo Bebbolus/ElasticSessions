@@ -1,5 +1,5 @@
 <?php
-namespace bebbolus\elasticsessions;
+namespace elasticsessions;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\ServiceProvider;

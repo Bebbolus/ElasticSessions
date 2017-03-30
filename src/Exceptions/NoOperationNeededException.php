@@ -1,6 +1,6 @@
 <?php
 
-namespace bebbolus\elasticsessions\Exceptions;
+namespace elasticsessions\Exceptions;
 
 class NoOperationNeededException extends \Exception {
 
