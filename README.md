@@ -27,7 +27,7 @@ add app providers:
     'providers' => [
         ...
         Elasticquent\ElasticquentServiceProvider::class,
-        bebbolus\elasticsessions\ElasticSessionsServiceProvider::class, #CUSTOM ELASTIC SESSION PROVIDER
+        ElasticSessions\ElasticSessionsServiceProvider::class, #CUSTOM ELASTIC SESSION PROVIDER
     ],
     
 add third party Package Facades:
