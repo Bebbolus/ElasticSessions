@@ -1,0 +1,27 @@
+{
+    "name": "Bebbolus/ElasticSessions",
+    "description": "ElasticSearch Sessions Driver for Laravel PHP Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto Della Fornace",
+            "email": "lambis.net@gmail.com"
+        },
+        {
+            "name": "Andrea Sabbatini",
+            "email": "andrea.sabbatini.296@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.6.4",
+      "laravel/framework": "5.4.*",
+      "elasticquent/elasticquent": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bebbolus\\ElasticSessions\\": "src/"
+        }
+    }
+}
