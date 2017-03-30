@@ -4,7 +4,7 @@ return array(
 
 
     'config' => [
-        'hosts'     => [env('ELS_SERVER','10.1.3.7:9200')],
+        'hosts'     => [env('ELS_SERVER','localhost')],
         'retries'   => 1,
     ],
 
@@ -17,8 +17,7 @@ return array(
     |
     */
 
-    'default_index' => env('ELS_INDEX','edm'),
-    'user_index' => env('ELS_INDEX_USER','edm-user'),
+    'user_index' => env('ELS_INDEX_USER','user'),
 
 
     /*
@@ -28,9 +27,7 @@ return array(
     |
     */
 
-    'user_type' => env('ELS_TYPE_PROFILE','profile'),
-    'permission_type' => env('ELS_TYPE_PERMISSION','permission'),
-    'session_type' => env('ELS_TYPE_SESSION','session'),
-    'role_type' => env('ELS_TYPE_ROLE','role'),
+    'session_type' => env('ELS_TYPE_SESSION','sessions'),
+
 
 );

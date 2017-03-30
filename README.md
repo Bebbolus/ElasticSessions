@@ -52,9 +52,9 @@ The .env of DEFAULT DEVELOPMENT ENVIRONMENT:
    
     ELS_MAX_RESULT=20
     
-    ELS_SERVER=10.1.3.7:9200
-    ELS_INDEX_USER=edm-sofist-test-user
-    ELS_TYPE_SESSION=session
+    ELS_SERVER=localhost
+    ELS_INDEX_USER=user
+    ELS_TYPE_SESSION=sessions
     
 **_NB_**
 
