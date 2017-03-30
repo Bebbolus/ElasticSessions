@@ -1,5 +1,5 @@
 <?php
-namespace elasticsessions;
+namespace ElasticSessions;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\ServiceProvider;

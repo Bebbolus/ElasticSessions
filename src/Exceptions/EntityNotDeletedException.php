@@ -1,6 +1,6 @@
 <?php
 
-namespace elasticsessions\Exceptions;
+namespace ElasticSessions\Exceptions;
 
 class EntityNotDeletedException extends \Exception {
 

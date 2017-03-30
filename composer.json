@@ -1,8 +1,16 @@
 {
     "name": "bebbolus/elasticsessions",
     "description": "ElasticSearch Sessions Driver for Laravel PHP Framework",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
+    "keywords": [
+      "elasticsearch",
+      "eloquent",
+      "session",
+      "laravel",
+      "PHP"
+    ],
+    "homepage": "https://github.com/Bebbolus/ElasticSessions",
     "authors": [
         {
             "name": "Roberto Della Fornace",
@@ -21,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "elasticsessions\\": "src/"
+            "ElasticSessions\\": "src/"
         }
     }
 }

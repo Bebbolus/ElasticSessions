@@ -1,9 +1,9 @@
 <?php
 
-namespace elasticsessions;
+namespace ElasticSessions;
 
-use elasticsessions\Exceptions\EntityNotFoundException;
-use elasticsessions\Repositories\SessionRepository;
+use ElasticSessions\Exceptions\EntityNotFoundException;
+use ElasticSessions\Repositories\SessionRepository;
 use SessionHandlerInterface;
 
 class ElasticSearchSessionHandler implements SessionHandlerInterface

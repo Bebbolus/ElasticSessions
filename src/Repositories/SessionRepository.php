@@ -1,13 +1,13 @@
 <?php
 
-namespace elasticsessions\Repositories;
+namespace ElasticSessions\Repositories;
 
 
-use elasticsessions\Exceptions\EntityNotCreatedException;
-use elasticsessions\Exceptions\EntityNotUpdatedException;
-use elasticsessions\Exceptions\EntityNotFoundException;
-use elasticsessions\Exceptions\MoreEntityWithSameAttributeException;
-use elasticsessions\Repositories\Support\ELSQueryBuilderTrait;
+use ElasticSessions\Exceptions\EntityNotCreatedException;
+use ElasticSessions\Exceptions\EntityNotUpdatedException;
+use ElasticSessions\Exceptions\EntityNotFoundException;
+use ElasticSessions\Exceptions\MoreEntityWithSameAttributeException;
+use ElasticSessions\Repositories\Support\ELSQueryBuilderTrait;
 use Elasticsearch\ClientBuilder;
 use Elasticsearch\Common\Exceptions\Missing404Exception;
 
