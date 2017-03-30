@@ -1,5 +1,5 @@
 {
-    "name": "Bebbolus/ElasticSessions",
+    "name": "bebbolus/elasticsessions",
     "description": "ElasticSearch Sessions Driver for Laravel PHP Framework",
     "type": "project",
     "license": "MIT",

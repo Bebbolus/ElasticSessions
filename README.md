@@ -16,7 +16,7 @@ Require section for our custom package and third party libraries:
     "require": {
         ...
         "elasticquent/elasticquent": "dev-master",
-        "Bebbolus/ElasticSessions": "master",
+        "bebbolus/elasticsessions": "master",
     },
     ...
       
