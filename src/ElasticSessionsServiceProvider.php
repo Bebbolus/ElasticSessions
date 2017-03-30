@@ -1,7 +1,7 @@
 <?php
-
 namespace bebbolus\elasticsessions;
 
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\ServiceProvider;
 
 class ElasticSessionsServiceProvider extends ServiceProvider
@@ -13,6 +13,10 @@ class ElasticSessionsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Session::extend('elastic', function($app) {
+            return new ElasticSearchSessionHandler;
+        });
+
         $this->publishes([
             __DIR__ . '/Config' => config_path(),
         ]);
