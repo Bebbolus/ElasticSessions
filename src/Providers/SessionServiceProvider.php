@@ -1,6 +1,6 @@
 <?php
 
-namespace Bebbolus\edm2package\Providers;
+namespace bebbolus\elasticsessions\Providers;
 
 use bebbolus\elasticsessions\ElasticSearchSessionHandler;
 use Illuminate\Support\Facades\Session;
