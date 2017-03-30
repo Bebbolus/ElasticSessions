@@ -1,6 +1,6 @@
 <?php
 
-namespace Bebbolus\ElasticSessions;
+namespace bebbolus\elasticsessions;
 
 use Illuminate\Support\ServiceProvider;
 

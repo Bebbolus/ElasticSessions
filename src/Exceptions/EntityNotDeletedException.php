@@ -1,6 +1,6 @@
 <?php
 
-namespace Bebbolus\ElasticSessions\Exceptions;
+namespace bebbolus\elasticsessions\Exceptions;
 
 class EntityNotDeletedException extends \Exception {
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Bebbolus\ElasticSessions\Repositories;
+namespace bebbolus\elasticsessions\Repositories;
 
 
-use Bebbolus\ElasticSessions\Exceptions\EntityNotCreatedException;
-use Bebbolus\ElasticSessions\Exceptions\EntityNotUpdatedException;
-use Bebbolus\ElasticSessions\Exceptions\EntityNotFoundException;
-use Bebbolus\ElasticSessions\Exceptions\MoreEntityWithSameAttributeException;
-use Bebbolus\ElasticSessions\Repositories\Support\ELSQueryBuilderTrait;
+use bebbolus\elasticsessions\Exceptions\EntityNotCreatedException;
+use bebbolus\elasticsessions\Exceptions\EntityNotUpdatedException;
+use bebbolus\elasticsessions\Exceptions\EntityNotFoundException;
+use bebbolus\elasticsessions\Exceptions\MoreEntityWithSameAttributeException;
+use bebbolus\elasticsessions\Repositories\Support\ELSQueryBuilderTrait;
 use Elasticsearch\ClientBuilder;
 use Elasticsearch\Common\Exceptions\Missing404Exception;
 

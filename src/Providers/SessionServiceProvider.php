@@ -2,7 +2,7 @@
 
 namespace Bebbolus\edm2package\Providers;
 
-use Bebbolus\ElasticSessions\ElasticSearchSessionHandler;
+use bebbolus\elasticsessions\ElasticSearchSessionHandler;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\ServiceProvider;
 

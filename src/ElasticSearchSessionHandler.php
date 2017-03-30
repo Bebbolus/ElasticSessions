@@ -1,9 +1,9 @@
 <?php
 
-namespace Bebbolus\ElasticSessions;
+namespace bebbolus\elasticsessions;
 
-use Bebbolus\ElasticSessions\Exceptions\EntityNotFoundException;
-use Bebbolus\ElasticSessions\Repositories\SessionRepository;
+use bebbolus\elasticsessions\Exceptions\EntityNotFoundException;
+use bebbolus\elasticsessions\Repositories\SessionRepository;
 use SessionHandlerInterface;
 
 class ElasticSearchSessionHandler implements SessionHandlerInterface
