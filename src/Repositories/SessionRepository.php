@@ -7,7 +7,6 @@ use ElasticSessions\Exceptions\EntityNotCreatedException;
 use ElasticSessions\Exceptions\EntityNotUpdatedException;
 use ElasticSessions\Exceptions\EntityNotFoundException;
 use ElasticSessions\Exceptions\MoreEntityWithSameAttributeException;
-use ElasticSessions\Repositories\Support\ELSQueryBuilderTrait;
 use Elasticsearch\ClientBuilder;
 use Elasticsearch\Common\Exceptions\Missing404Exception;
 
