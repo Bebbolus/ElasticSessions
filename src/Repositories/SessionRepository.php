@@ -12,7 +12,7 @@ use Elasticsearch\Common\Exceptions\Missing404Exception;
 
 class SessionRepository {
 
-    use \Bebbolus\ELSQueryBuilderTrait\ELSQueryBuilderTrait;
+    use \ELSQueryBuilderTrait\ELSQueryBuilderTrait;
 
     private $index;
     private $type;
