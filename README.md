@@ -1,12 +1,12 @@
 # ElasticSessions
 a package to provide a ElasticSearch Sessions Driver for Laravel PHP Framework
 
-## ElasticSessions Requirements
+## Requirements
 ElasticSessions is born on top of Elastiquent, you must be running at least Elasticsearch 1.0. Elasticsearch 0.9 and below will not work and are not supported.
 
 _**You need to set-up your own Index and Type for sessions and configure it in .env (ELS_INDEX_USER, ELS_TYPE_SESSION)**_
 
-###Set up the use of this package
+## Set up
 
 To begin configuration, first update the composer.json with the relative requirement and autoload sections: 
 
@@ -63,6 +63,6 @@ The .env of DEFAULT DEVELOPMENT ENVIRONMENT:
 
 _**You need to set-up your own Index and Type for sessions and configure it in .env (ELS_INDEX_USER, ELS_TYPE_SESSION)**_
 
-###TODO
+## TODO
 
  1. TEST!!!!!!
