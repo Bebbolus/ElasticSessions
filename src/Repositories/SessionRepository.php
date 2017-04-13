@@ -28,7 +28,6 @@ class SessionRepository {
         $this->client = $client = ClientBuilder::create()->setHosts(config('elasticquent.config.hosts','10.1.3.7:9200'))->build();
     }
 
-
     public function destroyUserSession($email = null)
     {
         if(is_null($email))$arguments['email'] =  \Auth::user()->email;
@@ -76,7 +75,6 @@ class SessionRepository {
 
     }
 
-
     public function search($term, $page = 0)
     {
         $params = [
@@ -89,7 +87,6 @@ class SessionRepository {
         $params['body']['query']['match']['_all'] = $term;
         return $this->client->search($params);
     }
-
 
 
     /**
@@ -166,8 +163,6 @@ class SessionRepository {
     {
 
         $this->find($id);
-
-
         $params['index'] = $this->index;
         $params['type'] = $this->type;
         $params['id'] = $id;
