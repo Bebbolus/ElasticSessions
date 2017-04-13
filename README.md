@@ -62,3 +62,7 @@ The .env of DEFAULT DEVELOPMENT ENVIRONMENT:
 > i.e. all the ELS_* parameters, etc...
 
 _**You need to set-up your own Index and Type for sessions and configure it in .env (ELS_INDEX_USER, ELS_TYPE_SESSION)**_
+
+###TODO
+
+ 1. TEST!!!!!!
