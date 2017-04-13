@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bebbolus\\ElasticSessions\\": "src/"
+            "ElasticSessions\\": "src/"
         }
     }
 }
